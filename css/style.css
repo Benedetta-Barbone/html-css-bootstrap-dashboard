@@ -15,3 +15,17 @@
 ul>li{
     list-style-type: none;
 }
+
+header.nav{
+    margin:0;
+    max-width: 100%;
+}
+
+main> header.container{
+    width: 8%;
+    margin: 0;
+    height: calc(100vh - 80px);
+    color: white;
+    background-image: url(../img/sidebar-bg.png);
+    background-color:#13293f ;
+}
