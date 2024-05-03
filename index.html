@@ -27,17 +27,23 @@
         </div>
     </header> 
     <div class="contenuto">
-        <header class="container nav-laterale d-flex">
+        <header class="container nav-laterale d-flex m-0 p-0">
             <div class="row d-flex flex-column justify-content-between">
                 <div class="col-12">
                     <ul>
-                        <li>0 </li>
-                        <li>0</li>
-                        <li>0</li>
+                        <li class="pb-3 pt-2">
+                            <i class="fa-solid fa-house pe-3"></i>Home
+                        </li>
+                        <li class="pb-3">
+                            <i class="fa-solid fa-chart-simple pe-3"></i>Stats
+                        </li>
+                        <li class="pb-3">
+                            <i class="fa-solid fa-signal pe-3"></i>Signals
+                        </li>
                     </ul>
                 </div>
-                <div class="col-12">
-                     impostazioni 
+                <div class="col-12 m-2">
+                    <i class="fa-solid fa-gear p-3"></i>Admin 
                 </div>
             </div>
         </header>
@@ -56,17 +62,17 @@
                 </div>
             </div>
             <div class="container m-4 p-0 w-100 d-flex">
-                <div class="row">
-                    <div class="card me-4 mb-4 col-sm-12 col-md-12 col-lg-7">
+                <div class="row d-flex flex-column col-sm-12 col-md-12 col-lg-7">
+                    <div class="card me-4 mb-4 ">
                         <h4 class="card-header">Prossime classi</h4>
                         <table class="table">                          
                             <tbody>
                                 <tr>
                                     <td class="w-64" scope="col">Nome</th>
                                     <td class="w-12 text-center" scope="col">Data inizio</th>
-                                    <td class="w-8 text-center" scope="col">ROI</th>
-                                    <td class="w-8 text-center" scope="col">Stato</th>
-                                    <td class="w-8 text-center" scope="col">Azioni</th>
+                                    <td class="w-7 text-center" scope="col">ROI</th>
+                                    <td class="w-7 text-center" scope="col">Stato</th>
+                                    <td class="w-10 text-center" scope="col">Azioni</th>
                                 </tr>
                                 <tr>
                                     <th>
@@ -215,7 +221,24 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="card  me-4 mb-4 col-sm-12 col-md-12 col-lg-4">
+                    <div class="card me-4 mb-4 ">
+                        <h4 class="card-header">F.A.Q.</h4>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Come aggiungere un nuovo studente?</option>
+                            <option value="1">Clicca sul + in alto a destra.</option>
+                        </select>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Come posso accedere alle informazioni del mio account?</option>
+                            <option value="1">Clicca sull'icona della campanella.</option>
+                        </select>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Posso usare questa dahboard da mobile?</option>
+                            <option value="1">Si</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row d-flex flex-column col-sm-12 col-md-12 col-lg-4">
+                    <div class="card  me-4 mb-4 ">
                         <h4 class="card-header">Todo</h4>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -236,23 +259,9 @@
                             </label>
                         </div>
                     </div>
-                    <div class="card me-4 mb-4 col-sm-12 col-md-12 col-lg-7">
-                        <h4 class="card-header">F.A.Q.</h4>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Come aggiungere un nuovo studente?</option>
-                            <option value="1">Clicca sul + in alto a destra.</option>
-                        </select>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Come posso accedere alle informazioni del mio account?</option>
-                            <option value="1">Clicca sull'icona della campanella.</option>
-                        </select>
-                        <select class="form-select mb-2" aria-label="Default select example">
-                            <option selected>Posso usare questa dahboard da mobile?</option>
-                            <option value="1">Si</option>
-                        </select>
-                     </div>
-                     <div class="card me-4 mb-4 card col-sm-12 col-md-12 col-lg-4">
-                        <img src="./img/stats.jpeg"  alt="stats">
+                   
+                     <div class="card me-4 mb-4 ">
+                        <img class="img-fluid" src="./img/stats.jpeg"  alt="stats">
                         <div class="card-body">
                           <h5 class="card-title">Utenti attivi</h5>
                           <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese.</p>
@@ -267,6 +276,7 @@
                         </div>
                       </div>
                 </div>
+               
             </div>
         </main>
     </div>

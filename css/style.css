@@ -39,7 +39,7 @@ div.contenuto{
 }
 
 div.contenuto> header.nav-laterale{
-    width: 8%;
+    width: 130px;
     margin: 0;
     height: calc(100vh - 80px);
     color: white;
@@ -48,7 +48,7 @@ div.contenuto> header.nav-laterale{
 }
 
 div.contenuto> main{
-    width: 92%;
+    width: calc(100% - 130px);
     height: calc(100vh - 80px);
     overflow-y: scroll;
 }
@@ -61,8 +61,17 @@ div.contenuto> main{
     width: 12%;
 }
 
+.w-10{
+    width: 10%;
+}
+
 .w-8{
     width: 8%;
+}
+
+
+.w-7{
+    width: 7%;
 }
 
 table{
